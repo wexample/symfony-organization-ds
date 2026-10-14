@@ -9,22 +9,17 @@
         <div class="block--title">
             <span class="block--title-label">{{ '@page::identity' | trans }}</span>
         </div>
-        <div class="block--body stack--vertical">
-            {%- for field, value in {
-                legal_form: organization.legalForm,
-                legal_identifier: organization.legalIdentifier,
-                vat_number: organization.vatNumber,
-                email: organization.email,
-                phone: organization.phone,
-                website: organization.website,
-            } -%}
-                {%- if value -%}
-                    <p><span class="text-secondary">{{ (identity ~ field) | trans }}</span> {{ value }}</p>
-                {%- endif -%}
-            {%- endfor -%}
-            {%- if organization.country -%}
-                <p><span class="text-secondary">{{ '@page::country' | trans }}</span> {{ organization.country.isoAlpha2Code|country_name(app.request.locale) }}</p>
-            {%- endif -%}
+        <div class="block--body">
+            {#- What is known of it only: an identifier never given is no line. -#}
+            {{ properties([
+                { key: (identity ~ 'legal_form') | trans, value: organization.legalForm },
+                { key: (identity ~ 'legal_identifier') | trans, value: organization.legalIdentifier },
+                { key: (identity ~ 'vat_number') | trans, value: organization.vatNumber },
+                { key: '@page::country' | trans, value: organization.country ? organization.country.isoAlpha2Code|country_name(app.request.locale) : null },
+                { key: (identity ~ 'email') | trans, value: organization.email },
+                { key: (identity ~ 'phone') | trans, value: organization.phone },
+                { key: (identity ~ 'website') | trans, value: organization.website ? '<a href="' ~ organization.website|e('html_attr') ~ '" target="_blank" rel="noopener">' ~ organization.website|e ~ '</a>' : null, html: true, break: true },
+            ]|filter(item => item.value), { columns: true }) }}
         </div>
     </section>
 {%- endblock -%}
