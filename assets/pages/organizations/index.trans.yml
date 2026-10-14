@@ -1,0 +1,17 @@
+en:
+  page_title: Organizations
+  page_icon: ph:bold/buildings
+  empty: You are a member of no organization.
+  column:
+    name: Organization
+    country: Country
+    vat_number: VAT number
+
+fr:
+  page_title: Organisations
+  page_icon: ph:bold/buildings
+  empty: Vous n'êtes membre d'aucune organisation.
+  column:
+    name: Organisation
+    country: Pays
+    vat_number: Numéro de TVA

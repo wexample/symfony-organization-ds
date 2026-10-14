@@ -1,0 +1,30 @@
+{%- extends '@WexampleSymfonyOrganizationDsBundle/layouts/organization/layout.html.twig' -%}
+
+{%- set page_title = organization.name -%}
+
+{#- An organization at a glance: who it is, for now. -#}
+{%- block page_body -%}
+    {%- set identity = 'WexampleSymfonyOrganizationDsBundle.common.identity::' -%}
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-label">{{ '@page::identity' | trans }}</span>
+        </div>
+        <div class="block--body stack--vertical">
+            {%- for field, value in {
+                legal_form: organization.legalForm,
+                legal_identifier: organization.legalIdentifier,
+                vat_number: organization.vatNumber,
+                email: organization.email,
+                phone: organization.phone,
+                website: organization.website,
+            } -%}
+                {%- if value -%}
+                    <p><span class="text-secondary">{{ (identity ~ field) | trans }}</span> {{ value }}</p>
+                {%- endif -%}
+            {%- endfor -%}
+            {%- if organization.country -%}
+                <p><span class="text-secondary">{{ '@page::country' | trans }}</span> {{ organization.country.isoAlpha2Code|country_name(app.request.locale) }}</p>
+            {%- endif -%}
+        </div>
+    </section>
+{%- endblock -%}
