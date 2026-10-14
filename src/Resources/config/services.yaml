@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    # The identity form asks for the address repository, so the form registry
+    # must take it from here rather than build it itself.
+    Wexample\SymfonyOrganizationDs\Form\:
+        resource: '../../Form/'
