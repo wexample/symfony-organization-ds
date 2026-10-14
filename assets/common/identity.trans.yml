@@ -1,0 +1,19 @@
+en:
+  name: Name
+  individual: A person, not a company
+  legal_form: Legal form
+  legal_identifier: Registration number (SIRET, enterprise number…)
+  vat_number: VAT number
+  email: Email
+  phone: Phone
+  website: Website
+
+fr:
+  name: Nom
+  individual: Une personne, pas une entreprise
+  legal_form: Forme juridique
+  legal_identifier: Numéro d'immatriculation (SIRET, n° d'entreprise…)
+  vat_number: Numéro de TVA
+  email: Email
+  phone: Téléphone
+  website: Site web

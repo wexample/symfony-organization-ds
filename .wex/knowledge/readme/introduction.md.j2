@@ -1,0 +1,1 @@
+`wexample/symfony-organization-ds` holds the design-system parts of `wexample/symfony-organization`: what a screen embeds to edit the legal identity of an organization of the directory, wherever an identity is typed.

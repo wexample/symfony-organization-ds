@@ -1,11 +1,48 @@
 {
   "name": "wexample/symfony-organization-ds",
+  "description": "Design system parts of the organization directory: forms and views of a legal identity",
   "version": "1.0.1",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyOrganizationDs\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wexample\\SymfonyOrganizationDs\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "weeger",
+      "email": "romain.weeger@wexample.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.5",
+    "wexample/symfony-organization": ">=1.0.1",
+    "wexample/symfony-geo-ds": ">=3.0.0",
+    "wexample/symfony-forms": ">=12.0.0",
+    "wexample/symfony-helpers": ">=16.0.0",
+    "wexample/symfony-loader": ">=23.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^13"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "extra": {
+    "install": {
+      "bundle_env": "all"
     }
   }
 }
