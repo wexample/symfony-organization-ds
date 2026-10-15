@@ -5,6 +5,15 @@ en:
   nature: Nature
   nature_individual: Person
   nature_company: Company
+  establishments:
+    title: Establishments
+    identifier: Identifier
+    address: Address
+    opened: Opened
+    closed: Closed
+    open: Open
+    role: Role
+    head_office: Head office
 
 fr:
   page_icon: ph:bold/buildings
@@ -13,3 +22,12 @@ fr:
   nature: Nature
   nature_individual: Personne
   nature_company: Entreprise
+  establishments:
+    title: Établissements
+    identifier: Identifiant
+    address: Adresse
+    opened: Ouverture
+    closed: Fermeture
+    open: Ouvert
+    role: Rôle
+    head_office: Siège

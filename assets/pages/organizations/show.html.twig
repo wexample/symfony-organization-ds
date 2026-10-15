@@ -2,7 +2,7 @@
 
 {%- set page_title = organization.name -%}
 
-{#- An organization at a glance: who it is, for now. -#}
+{#- An organization at a glance: who it is, and where it works and worked from. -#}
 {%- block page_body -%}
     {%- set identity = 'WexampleSymfonyOrganizationDsBundle.common.identity::' -%}
     <section class="block block--card">
@@ -23,4 +23,21 @@
             ]|filter(item => item.value), { columns: true }) }}
         </div>
     </section>
+
+    {%- if organization.establishments is not empty -%}
+        <h2>{{ '@page::establishments.title' | trans }}</h2>
+        {{ data_table([
+            { key: 'identifier', label: '@page::establishments.identifier' | trans },
+            { key: 'address', label: '@page::establishments.address' | trans },
+            { key: 'opened', label: '@page::establishments.opened' | trans, cell: 'html' },
+            { key: 'closed', label: '@page::establishments.closed' | trans, cell: 'html' },
+            { key: 'role', label: '@page::establishments.role' | trans, cell: 'html' },
+        ], organization.establishments|reverse|map(establishment => {
+            identifier: establishment.legalIdentifier ?? '',
+            address: establishment.address ? [establishment.address.postalAddress, [establishment.address.postCode, establishment.address.city]|filter(v => v)|join(' ')]|filter(v => v)|join(', ') : '',
+            opened: establishment.dateOpened ? date_display(establishment.dateOpened, 'date_short') : '',
+            closed: establishment.dateClosed ? date_display(establishment.dateClosed, 'date_short') : marker('success', '@page::establishments.open' | trans, { compact: true }),
+            role: establishment.headOffice ? marker('neutral', '@page::establishments.head_office' | trans, { compact: true }) : '',
+        })) }}
+    {%- endif -%}
 {%- endblock -%}
