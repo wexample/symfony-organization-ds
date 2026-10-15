@@ -7,6 +7,9 @@
     {%- set identity = 'WexampleSymfonyOrganizationDsBundle.common.identity::' -%}
     <section class="block block--card">
         <div class="block--title">
+            {%- if organization.logo -%}
+                <span class="block--title-leading"><img class="organization--logo" src="{{ path('media_file', { id: organization.logo.id }) }}" alt="{{ organization.name }}" height="40"></span>
+            {%- endif -%}
             <span class="block--title-label">{{ '@page::identity' | trans }}</span>
         </div>
         <div class="block--body">
