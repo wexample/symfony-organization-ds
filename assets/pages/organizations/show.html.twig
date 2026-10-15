@@ -12,6 +12,7 @@
         <div class="block--body">
             {#- What is known of it only: an identifier never given is no line. -#}
             {{ properties([
+                { key: '@page::nature' | trans, value: ('@page::nature_' ~ (organization.individual ? 'individual' : 'company')) | trans },
                 { key: (identity ~ 'legal_form') | trans, value: organization.legalForm },
                 { key: (identity ~ 'legal_identifier') | trans, value: organization.legalIdentifier },
                 { key: (identity ~ 'vat_number') | trans, value: organization.vatNumber },

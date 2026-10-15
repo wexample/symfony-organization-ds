@@ -2,8 +2,12 @@ en:
   page_title: Organizations
   page_icon: ph:bold/buildings
   empty: You are a member of no organization.
+  nature:
+    individual: A person
+    company: A company
   column:
     name: Organization
+    nature: Nature
     country: Country
     vat_number: VAT number
 
@@ -11,7 +15,11 @@ fr:
   page_title: Organisations
   page_icon: ph:bold/buildings
   empty: Vous n'êtes membre d'aucune organisation.
+  nature:
+    individual: Une personne
+    company: Une entreprise
   column:
     name: Organisation
+    nature: Nature
     country: Pays
     vat_number: Numéro de TVA

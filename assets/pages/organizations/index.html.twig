@@ -9,11 +9,13 @@
     {%- else -%}
         {{ data_table([
             { key: 'name', label: '@page::column.name' | trans },
+            { key: 'nature', label: '@page::column.nature' | trans, cell: 'html' },
             { key: 'country', label: '@page::column.country' | trans },
             { key: 'vat_number', label: '@page::column.vat_number' | trans },
         ], organizations|map(organization => {
             href: path('organization_show', { id: organization.id }),
             name: organization.name,
+            nature: marker(organization.individual ? 'info' : 'neutral', ('@page::nature.' ~ (organization.individual ? 'individual' : 'company')) | trans, { compact: true }),
             country: organization.country ? organization.country.isoAlpha2Code : '',
             vat_number: organization.vatNumber ?? '',
         }), { row_link: { key: 'href' } }) }}
