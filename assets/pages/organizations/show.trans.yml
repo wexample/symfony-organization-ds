@@ -3,13 +3,13 @@ en:
   identity: Identity
   country: Country
   nature: Nature
-  nature_individual: A person
-  nature_company: A company
+  nature_individual: Person
+  nature_company: Company
 
 fr:
   page_icon: ph:bold/buildings
   identity: Identité
   country: Pays
   nature: Nature
-  nature_individual: Une personne
-  nature_company: Une entreprise
+  nature_individual: Personne
+  nature_company: Entreprise
