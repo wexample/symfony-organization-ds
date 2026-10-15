@@ -15,11 +15,12 @@ interface OrganizationSectionInterface
     final public const string TAG = 'wexample_symfony_organization_ds.section';
 
     /**
-     * The tabs, as `page_tabs` takes them: `label` (a translation key),
-     * `icon`, `route`, `params`, and `active` for a tab lit on a family of
-     * pages.
+     * Items of a navigation (the design system's NavigationService): `label`
+     * (a translation key), `icon`, `route`, `params`, `match` for an item lit
+     * on a family of pages, and `children` for a section holding views of its
+     * own — drawn folded under it in a menu, as the next level in tabs.
      *
-     * @return list<array{label: string, icon: string, route: string, params?: array<string, mixed>, active?: bool}>
+     * @return list<array{label: string, icon: string, route: string, params?: array<string, mixed>, match?: string|list<string>, children?: list<array<string, mixed>>}>
      */
     public function getSections(
         Organization $organization,

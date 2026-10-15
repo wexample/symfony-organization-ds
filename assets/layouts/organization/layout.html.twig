@@ -1,13 +1,9 @@
 {%- extends '@front/layouts/private/layout.html.twig' -%}
 
-{#- A page of one organization: its name as the page's trail, its sections as
-    tabs under the header — its overview, then what the other packages add
-    (`organization_sections`, OrganizationSectionInterface). `organization` is
+{#- A page of one organization: its name as the page's trail, its sections —
+    its overview, then what the other packages add (`organization_navigation`,
+    OrganizationSectionInterface) — drawn as the app chooses: tabs under the
+    header, or the side menu standing for the organization. `organization` is
     given by every page extending this one. -#}
 {%- set page_show_title = true -%}
-
-{%- block page_navigation -%}
-    {{ page_tabs([
-        { label: 'WexampleSymfonyOrganizationDsBundle.layouts.organization.layout::tab.overview', icon: 'ph:bold/gauge', route: 'organization_show', params: { id: organization.id } },
-    ]|merge(organization_sections(organization)), { back: { href: path('organization_index'), label: organization.name } }) }}
-{%- endblock -%}
+{%- set page_section_navigation = organization_navigation(organization) -%}
