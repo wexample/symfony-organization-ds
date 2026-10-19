@@ -23,3 +23,16 @@ fr:
     nature: Nature
     country: Pays
     vat_number: Numéro de TVA
+
+zh:
+  page_title: 组织
+  page_icon: 'ph:bold/buildings'
+  empty: 您没有加入任何组织。
+  nature:
+    individual: 个人
+    company: 公司
+  column:
+    name: 组织
+    nature: 性质
+    country: 国家
+    vat_number: 增值税号码

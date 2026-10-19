@@ -31,3 +31,20 @@ fr:
     open: Ouvert
     role: Rôle
     head_office: Siège
+
+zh:
+  page_icon: 'ph:bold/buildings'
+  identity: 身份
+  country: 国家
+  nature: 自然
+  nature_individual: 个人
+  nature_company: 公司
+  establishments:
+    title: 机构
+    identifier: 标识符
+    address: 地址
+    opened: 开业时间
+    closed: 关闭时间
+    open: 营业中
+    role: 角色
+    head_office: 总部

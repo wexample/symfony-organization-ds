@@ -17,3 +17,13 @@ fr:
   email: Email
   phone: Téléphone
   website: Site web
+
+zh:
+  name: 姓名
+  individual: 个人，非公司
+  legal_form: 法律形式
+  legal_identifier: 注册号（SIRET，企业号…）
+  vat_number: 增值税号
+  email: 电子邮件
+  phone: 电话
+  website: 网站

@@ -1,0 +1,138 @@
+{
+    "common/identity.zh.yml": {
+        "email": {
+            "hash": "2598beb66d173eff6b50a4377fca718d",
+            "engine": "syrtis"
+        },
+        "individual": {
+            "hash": "64dff6e3101be10cd17c0dd26b0b9d99",
+            "engine": "syrtis"
+        },
+        "legal_form": {
+            "hash": "0f275848a3118af16a5456cca96e335a",
+            "engine": "syrtis"
+        },
+        "legal_identifier": {
+            "hash": "e44df4b1671e5134b1f14f406b3ee0a7",
+            "engine": "syrtis"
+        },
+        "name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "phone": {
+            "hash": "8197723ac0bfea90f42a2920102b0178",
+            "engine": "syrtis"
+        },
+        "vat_number": {
+            "hash": "7f646dc4fa06a0e7b64d1ec8b509b28b",
+            "engine": "syrtis"
+        },
+        "website": {
+            "hash": "7c54427f3f9eaf84852a04159b5e7702",
+            "engine": "syrtis"
+        }
+    },
+    "layouts/organization/layout.zh.yml": {
+        "tab.overview": {
+            "hash": "1e680f98c54c465c425776ba86912dad",
+            "engine": "syrtis"
+        }
+    },
+    "pages/organizations/index.zh.yml": {
+        "column.country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "column.name": {
+            "hash": "560ac7a1a1351eb18e301e1734c098cf",
+            "engine": "syrtis"
+        },
+        "column.nature": {
+            "hash": "9e0893bd87a2df35871b512c0e38c38a",
+            "engine": "syrtis"
+        },
+        "column.vat_number": {
+            "hash": "7f646dc4fa06a0e7b64d1ec8b509b28b",
+            "engine": "syrtis"
+        },
+        "empty": {
+            "hash": "c15cb4ea5a4529aabf26a022e2b56cd6",
+            "engine": "syrtis"
+        },
+        "nature.company": {
+            "hash": "853252beef1f5eb23ca9b3ad19407ad8",
+            "engine": "syrtis"
+        },
+        "nature.individual": {
+            "hash": "599bb45aabbe628bcb3941f6729d8294",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "3240610887e99c481054d8c1e17c34ff",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "c3dc967b39837ff4639d7b7f56c270b5",
+            "engine": "syrtis"
+        }
+    },
+    "pages/organizations/show.zh.yml": {
+        "country": {
+            "hash": "8a6488b712806c86287bb5817ccdcf47",
+            "engine": "syrtis"
+        },
+        "establishments.address": {
+            "hash": "8cfb57720071aeb3880b05bb5096f4c9",
+            "engine": "syrtis"
+        },
+        "establishments.closed": {
+            "hash": "c91875a3b495a5bdb05259f77d0fd4ef",
+            "engine": "syrtis"
+        },
+        "establishments.head_office": {
+            "hash": "0ae28662bdde65eb136f8c29b3e331ac",
+            "engine": "syrtis"
+        },
+        "establishments.identifier": {
+            "hash": "432a4a8a50d7f5ee92dea9f3f567dbc6",
+            "engine": "syrtis"
+        },
+        "establishments.open": {
+            "hash": "f92a80ac56704cfb76c830d293328a94",
+            "engine": "syrtis"
+        },
+        "establishments.opened": {
+            "hash": "0ca7b8703bb026deec399102f63b7859",
+            "engine": "syrtis"
+        },
+        "establishments.role": {
+            "hash": "c15147bacb35629ecf74f2363b30ce7a",
+            "engine": "syrtis"
+        },
+        "establishments.title": {
+            "hash": "d0273d757da16ac5e81b26f68c61d7bf",
+            "engine": "syrtis"
+        },
+        "identity": {
+            "hash": "6232f84c1a284c631069d571dff78a8d",
+            "engine": "syrtis"
+        },
+        "nature": {
+            "hash": "9e0893bd87a2df35871b512c0e38c38a",
+            "engine": "syrtis"
+        },
+        "nature_company": {
+            "hash": "853252beef1f5eb23ca9b3ad19407ad8",
+            "engine": "syrtis"
+        },
+        "nature_individual": {
+            "hash": "599bb45aabbe628bcb3941f6729d8294",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "3240610887e99c481054d8c1e17c34ff",
+            "engine": "syrtis"
+        }
+    }
+}
