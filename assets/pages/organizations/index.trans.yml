@@ -36,3 +36,263 @@ zh:
     nature: 性质
     country: 国家
     vat_number: 增值税号码
+
+ar:
+  page_title: المنظمات
+  page_icon: 'ph:bold/buildings'
+  empty: 'أنت عضو في أي منظمة.'
+  nature:
+    individual: شخص
+    company: شركة
+  column:
+    name: المنظمة
+    nature: النوع
+    country: البلد
+    vat_number: 'رقم الضريبة المضافة'
+
+hi:
+  page_title: संस्थाएँ
+  page_icon: 'ph:bold/buildings'
+  empty: 'आप किसी संस्था के सदस्य नहीं हैं।'
+  nature:
+    individual: व्यक्ति
+    company: कंपनी
+  column:
+    name: संस्था
+    nature: स्वभाव
+    country: देश
+    vat_number: 'वैट नंबर'
+
+he:
+  page_title: ארגונים
+  page_icon: 'ph:bold/buildings'
+  empty: 'אתה חבר באף ארגון.'
+  nature:
+    individual: אדם
+    company: חברה
+  column:
+    name: ארגון
+    nature: טבע
+    country: מדינה
+    vat_number: 'מספר מע"מ'
+
+fa:
+  page_title: سازمان‌ها
+  page_icon: 'ph:bold/buildings'
+  empty: 'شما عضوی از هیچ سازمانی نیستید.'
+  nature:
+    individual: شخص
+    company: شرکت
+  column:
+    name: سازمان
+    nature: نوع
+    country: کشور
+    vat_number: 'شماره مالیاتی'
+
+ur:
+  page_title: تنظیمیں
+  page_icon: 'ph:bold/buildings'
+  empty: 'آپ کسی تنظیم کے رکن نہیں ہیں۔'
+  nature:
+    individual: شخص
+    company: کمپنی
+  column:
+    name: تنظیم
+    nature: نوع
+    country: ملک
+    vat_number: 'VAT نمبر'
+
+ja:
+  page_title: 組織
+  page_icon: 'ph:bold/buildings'
+  empty: あなたはどの組織にも所属していません。
+  nature:
+    individual: 個人
+    company: 企業
+  column:
+    name: 組織
+    nature: 種類
+    country: 国
+    vat_number: VAT番号
+
+ko:
+  page_title: 조직
+  page_icon: 'ph:bold/buildings'
+  empty: '당신은 어떤 조직의 구성원이 아닙니다.'
+  nature:
+    individual: 개인
+    company: 회사
+  column:
+    name: 조직
+    nature: 유형
+    country: 국가
+    vat_number: '부가세 번호'
+
+bn:
+  page_title: সংগঠনসমূহ
+  page_icon: 'ph:bold/buildings'
+  empty: 'আপনি কোনো সংগঠনের সদস্য নন।'
+  nature:
+    individual: ব্যক্তি
+    company: কোম্পানি
+  column:
+    name: সংগঠন
+    nature: প্রকৃতি
+    country: দেশ
+    vat_number: 'ভ্যাট নম্বর'
+
+th:
+  page_title: องค์กร
+  page_icon: 'ph:bold/buildings'
+  empty: 'คุณเป็นสมาชิกขององค์กรใด ๆ'
+  nature:
+    individual: บุคคล
+    company: บริษัท
+  column:
+    name: องค์กร
+    nature: ประเภท
+    country: ประเทศ
+    vat_number: 'หมายเลข VAT'
+
+de:
+  page_title: Organisationen
+  page_icon: 'ph:bold/buildings'
+  empty: 'Du bist kein Mitglied einer Organisation.'
+  nature:
+    individual: Person
+    company: Unternehmen
+  column:
+    name: Organisation
+    nature: Art
+    country: Land
+    vat_number: USt-IdNr.
+
+fi:
+  page_title: Organisaatiot
+  page_icon: 'ph:bold/buildings'
+  empty: 'Et ole minkään organisaation jäsen.'
+  nature:
+    individual: Henkilö
+    company: Yritys
+  column:
+    name: Organisaatio
+    nature: Luonne
+    country: Maa
+    vat_number: ALV-numero
+
+ru:
+  page_title: Организации
+  page_icon: 'ph:bold/buildings'
+  empty: 'Вы не состоите ни в одной организации.'
+  nature:
+    individual: Человек
+    company: Компания
+  column:
+    name: Организация
+    nature: Тип
+    country: Страна
+    vat_number: 'Номер НДС'
+
+pl:
+  page_title: Organizacje
+  page_icon: 'ph:bold/buildings'
+  empty: 'Nie jesteś członkiem żadnej organizacji.'
+  nature:
+    individual: Osoba
+    company: Firma
+  column:
+    name: Organizacja
+    nature: Rodzaj
+    country: Kraj
+    vat_number: 'Numer VAT'
+
+es:
+  page_title: Organizaciones
+  page_icon: 'ph:bold/buildings'
+  empty: 'No eres miembro de ninguna organización.'
+  nature:
+    individual: Persona
+    company: Empresa
+  column:
+    name: Organización
+    nature: Naturaleza
+    country: País
+    vat_number: 'Número de IVA'
+
+it:
+  page_title: Organizzazioni
+  page_icon: 'ph:bold/buildings'
+  empty: 'Non sei membro di alcuna organizzazione.'
+  nature:
+    individual: Persona
+    company: Azienda
+  column:
+    name: Organizzazione
+    nature: Tipo
+    country: Paese
+    vat_number: 'Numero di partita IVA'
+
+pt_BR:
+  page_title: Organizações
+  page_icon: 'ph:bold/buildings'
+  empty: 'Você não é membro de nenhuma organização.'
+  nature:
+    individual: Pessoa
+    company: Empresa
+  column:
+    name: Organização
+    nature: Natureza
+    country: País
+    vat_number: 'Número de VAT'
+
+tr:
+  page_title: Organizasyonlar
+  page_icon: 'ph:bold/buildings'
+  empty: 'Hiçbir organizasyonun üyesi değilsiniz.'
+  nature:
+    individual: 'Gerçek Kişi'
+    company: Şirket
+  column:
+    name: Organizasyon
+    nature: Nitelik
+    country: Ülke
+    vat_number: 'KDV numarası'
+
+vi:
+  page_title: 'Tổ chức'
+  page_icon: 'ph:bold/buildings'
+  empty: 'Bạn không phải là thành viên của tổ chức nào.'
+  nature:
+    individual: 'Cá nhân'
+    company: 'Công ty'
+  column:
+    name: 'Tổ chức'
+    nature: 'Loại hình'
+    country: 'Quốc gia'
+    vat_number: 'Số VAT'
+
+id:
+  page_title: Organisasi
+  page_icon: 'ph:bold/buildings'
+  empty: 'Anda bukan anggota organisasi manapun.'
+  nature:
+    individual: Orang
+    company: Perusahaan
+  column:
+    name: Organisasi
+    nature: Jenis
+    country: Negara
+    vat_number: 'Nomor PPN'
+
+nl:
+  page_title: Organisaties
+  page_icon: 'ph:bold/buildings'
+  empty: 'Je bent lid van geen organisatie.'
+  nature:
+    individual: Persoon
+    company: Bedrijf
+  column:
+    name: Organisatie
+    nature: Soort
+    country: Land
+    vat_number: BTW-nummer

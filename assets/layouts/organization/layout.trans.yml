@@ -9,3 +9,83 @@ fr:
 zh:
   tab:
     overview: 概览
+
+ar:
+  tab:
+    overview: 'نظرة عامة'
+
+hi:
+  tab:
+    overview: अवलोकन
+
+he:
+  tab:
+    overview: 'סקירה כללית'
+
+fa:
+  tab:
+    overview: 'مرور کلی'
+
+ur:
+  tab:
+    overview: جائزہ
+
+ja:
+  tab:
+    overview: 概要
+
+ko:
+  tab:
+    overview: 개요
+
+bn:
+  tab:
+    overview: 'সংক্ষিপ্ত বিবরণ'
+
+th:
+  tab:
+    overview: ภาพรวม
+
+de:
+  tab:
+    overview: Überblick
+
+fi:
+  tab:
+    overview: Yhteenveto
+
+ru:
+  tab:
+    overview: Обзор
+
+pl:
+  tab:
+    overview: Przegląd
+
+es:
+  tab:
+    overview: Resumen
+
+it:
+  tab:
+    overview: Panoramica
+
+pt_BR:
+  tab:
+    overview: 'Visão Geral'
+
+tr:
+  tab:
+    overview: 'Genel Bakış'
+
+vi:
+  tab:
+    overview: 'Tổng quan'
+
+id:
+  tab:
+    overview: Ikhtisar
+
+nl:
+  tab:
+    overview: Overzicht

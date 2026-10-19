@@ -48,3 +48,343 @@ zh:
     open: 营业中
     role: 角色
     head_office: 总部
+
+ar:
+  page_icon: 'ph:bold/buildings'
+  identity: الهوية
+  country: الدولة
+  nature: الطبيعة
+  nature_individual: شخص
+  nature_company: شركة
+  establishments:
+    title: المنشآت
+    identifier: المعرف
+    address: العنوان
+    opened: مفتوح
+    closed: مغلق
+    open: مفتوح
+    role: الدور
+    head_office: 'المكتب الرئيسي'
+
+hi:
+  page_icon: 'ph:bold/buildings'
+  identity: पहचान
+  country: देश
+  nature: प्रकृति
+  nature_individual: व्यक्ति
+  nature_company: कंपनी
+  establishments:
+    title: संस्थाएँ
+    identifier: पहचानकर्ता
+    address: पता
+    opened: खुला
+    closed: बंद
+    open: खुला
+    role: भूमिका
+    head_office: मुख्यालय
+
+he:
+  page_icon: 'ph:bold/buildings'
+  identity: זהות
+  country: מדינה
+  nature: טבע
+  nature_individual: אדם
+  nature_company: חברה
+  establishments:
+    title: מוסדות
+    identifier: מזהה
+    address: כתובת
+    opened: נפתח
+    closed: נסגר
+    open: פתוח
+    role: תפקיד
+    head_office: 'מטה ראשי'
+
+fa:
+  page_icon: 'ph:bold/buildings'
+  identity: هویت
+  country: کشور
+  nature: طبیعت
+  nature_individual: شخص
+  nature_company: شرکت
+  establishments:
+    title: تأسیسات
+    identifier: شناسه
+    address: آدرس
+    opened: 'باز شده'
+    closed: 'بسته شده'
+    open: باز
+    role: نقش
+    head_office: 'دفتر مرکزی'
+
+ur:
+  page_icon: 'ph:bold/buildings'
+  identity: شناخت
+  country: ملک
+  nature: قدرت
+  nature_individual: شخص
+  nature_company: کمپنی
+  establishments:
+    title: ادارے
+    identifier: 'شناخت کنندہ'
+    address: پتہ
+    opened: کھلا
+    closed: بند
+    open: کھلا
+    role: کردار
+    head_office: 'ہیڈ آفس'
+
+ja:
+  page_icon: 'ph:bold/buildings'
+  identity: アイデンティティ
+  country: 国
+  nature: 自然
+  nature_individual: 個人
+  nature_company: 企業
+  establishments:
+    title: 施設
+    identifier: 識別子
+    address: 住所
+    opened: 開設日
+    closed: 閉鎖日
+    open: 開く
+    role: 役割
+    head_office: 本社
+
+ko:
+  page_icon: 'ph:bold/buildings'
+  identity: 신원
+  country: 국가
+  nature: 자연
+  nature_individual: 개인
+  nature_company: 회사
+  establishments:
+    title: 시설
+    identifier: 식별자
+    address: 주소
+    opened: 개설됨
+    closed: 폐쇄됨
+    open: 열림
+    role: 역할
+    head_office: 본사
+
+bn:
+  page_icon: 'ph:bold/buildings'
+  identity: পরিচয়
+  country: দেশ
+  nature: প্রকৃতি
+  nature_individual: ব্যক্তি
+  nature_company: কোম্পানি
+  establishments:
+    title: প্রতিষ্ঠান
+    identifier: আইডেন্টিফায়ার
+    address: ঠিকানা
+    opened: খোলা
+    closed: বন্ধ
+    open: খোলা
+    role: ভূমিকা
+    head_office: 'মুখ্য অফিস'
+
+th:
+  page_icon: 'ph:bold/buildings'
+  identity: ตัวตน
+  country: ประเทศ
+  nature: ธรรมชาติ
+  nature_individual: บุคคล
+  nature_company: บริษัท
+  establishments:
+    title: สถานประกอบการ
+    identifier: รหัสประจำตัว
+    address: ที่อยู่
+    opened: เปิดดำเนินการเมื่อ
+    closed: ปิดดำเนินการเมื่อ
+    open: เปิด
+    role: บทบาท
+    head_office: สำนักงานใหญ่
+
+de:
+  page_icon: 'ph:bold/buildings'
+  identity: Identität
+  country: Land
+  nature: Natur
+  nature_individual: Person
+  nature_company: Unternehmen
+  establishments:
+    title: Einrichtungen
+    identifier: Identifikator
+    address: Adresse
+    opened: Geöffnet
+    closed: Geschlossen
+    open: Offen
+    role: Rolle
+    head_office: Hauptsitz
+
+fi:
+  page_icon: 'ph:bold/buildings'
+  identity: Identiteetti
+  country: Maa
+  nature: Luonto
+  nature_individual: Henkilö
+  nature_company: Yritys
+  establishments:
+    title: Toimipisteet
+    identifier: Tunniste
+    address: Osoite
+    opened: Avattu
+    closed: Suljettu
+    open: Auki
+    role: Rooli
+    head_office: Pääkonttori
+
+ru:
+  page_icon: 'ph:bold/buildings'
+  identity: Личность
+  country: Страна
+  nature: Природа
+  nature_individual: Человек
+  nature_company: Компания
+  establishments:
+    title: Учреждения
+    identifier: Идентификатор
+    address: Адрес
+    opened: Открыто
+    closed: Закрыто
+    open: Открыто
+    role: Роль
+    head_office: 'Головной офис'
+
+pl:
+  page_icon: 'ph:bold/buildings'
+  identity: Tożsamość
+  country: Kraj
+  nature: Rodzaj
+  nature_individual: Osoba
+  nature_company: Firma
+  establishments:
+    title: Instytucje
+    identifier: Identyfikator
+    address: Adres
+    opened: Otwarte
+    closed: Zamknięte
+    open: Otwarte
+    role: Rola
+    head_office: 'Siedziba główna'
+
+es:
+  page_icon: 'ph:bold/buildings'
+  identity: Identidad
+  country: País
+  nature: Naturaleza
+  nature_individual: Persona
+  nature_company: Empresa
+  establishments:
+    title: Establecimientos
+    identifier: Identificador
+    address: Dirección
+    opened: Abierto
+    closed: Cerrado
+    open: Abrir
+    role: Rol
+    head_office: 'Oficina central'
+
+it:
+  page_icon: 'ph:bold/buildings'
+  identity: Identità
+  country: Paese
+  nature: Natura
+  nature_individual: Persona
+  nature_company: Azienda
+  establishments:
+    title: Stabilimenti
+    identifier: Identificatore
+    address: Indirizzo
+    opened: Aperto
+    closed: Chiuso
+    open: Aperto
+    role: Ruolo
+    head_office: 'Sede centrale'
+
+pt_BR:
+  page_icon: 'ph:bold/buildings'
+  identity: Identidade
+  country: País
+  nature: Natureza
+  nature_individual: Pessoa
+  nature_company: Empresa
+  establishments:
+    title: Estabelecimentos
+    identifier: Identificador
+    address: Endereço
+    opened: Aberto
+    closed: Fechado
+    open: Abrir
+    role: Função
+    head_office: Sede
+
+tr:
+  page_icon: 'ph:bold/buildings'
+  identity: Kimlik
+  country: Ülke
+  nature: Doğa
+  nature_individual: Birey
+  nature_company: Şirket
+  establishments:
+    title: Kuruluşlar
+    identifier: Tanımlayıcı
+    address: Adres
+    opened: Açıldı
+    closed: Kapandı
+    open: Açık
+    role: Rol
+    head_office: 'Merkez ofis'
+
+vi:
+  page_icon: 'ph:bold/buildings'
+  identity: 'Danh tính'
+  country: 'Quốc gia'
+  nature: 'Tự nhiên'
+  nature_individual: 'Cá nhân'
+  nature_company: 'Công ty'
+  establishments:
+    title: 'Cơ sở'
+    identifier: 'Mã nhận diện'
+    address: 'Địa chỉ'
+    opened: 'Ngày mở'
+    closed: 'Ngày đóng'
+    open: 'Mở cửa'
+    role: 'Vai trò'
+    head_office: 'Trụ sở chính'
+
+id:
+  page_icon: 'ph:bold/buildings'
+  identity: Identitas
+  country: Negara
+  nature: Alam
+  nature_individual: Individu
+  nature_company: Perusahaan
+  establishments:
+    title: Instansi
+    identifier: Pengidentifikasi
+    address: Alamat
+    opened: Dibuka
+    closed: Ditutup
+    open: Buka
+    role: Peran
+    head_office: 'Kantor pusat'
+
+nl:
+  page_icon: 'ph:bold/buildings'
+  identity: Identiteit
+  country: Land
+  nature: Natuur
+  nature_individual: Persoon
+  nature_company: Bedrijf
+  establishments:
+    title: Vestigingen
+    identifier: Identifier
+    address: Adres
+    opened: Geopend
+    closed: Gesloten
+    open: Open
+    role: Rol
+    head_office: Hoofdkantoor

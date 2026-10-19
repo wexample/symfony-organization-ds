@@ -27,3 +27,203 @@ zh:
   email: 电子邮件
   phone: 电话
   website: 网站
+
+ar:
+  name: الاسم
+  individual: 'شخص، وليس شركة'
+  legal_form: 'الصيغة القانونية'
+  legal_identifier: 'رقم التسجيل (SIRET، رقم المؤسسة…)'
+  vat_number: 'رقم الضريبة على القيمة المضافة'
+  email: 'البريد الإلكتروني'
+  phone: الهاتف
+  website: 'الموقع الإلكتروني'
+
+hi:
+  name: नाम
+  individual: 'एक व्यक्ति, कंपनी नहीं'
+  legal_form: 'कानूनी रूप'
+  legal_identifier: 'पंजीकरण संख्या (SIRET, उद्यम संख्या…)'
+  vat_number: 'वैट संख्या'
+  email: ईमेल
+  phone: फोन
+  website: वेबसाइट
+
+he:
+  name: שם
+  individual: 'אדם, לא חברה'
+  legal_form: 'צורת רישום'
+  legal_identifier: 'מספר רישום (SIRET, מספר חברה…)'
+  vat_number: 'מספר מע"מ'
+  email: אימייל
+  phone: טלפון
+  website: אתר
+
+fa:
+  name: نام
+  individual: 'یک شخص، نه یک شرکت'
+  legal_form: 'نوع حقوقی'
+  legal_identifier: 'شماره ثبت (SIRET، شماره شرکت…)'
+  vat_number: 'شماره مالیاتی'
+  email: ایمیل
+  phone: تلفن
+  website: وب‌سایت
+
+ur:
+  name: نام
+  individual: 'ایک شخص، کمپنی نہیں'
+  legal_form: 'قانونی شکل'
+  legal_identifier: 'رجسٹریشن نمبر (SIRET، کاروباری نمبر…)'
+  vat_number: 'VAT نمبر'
+  email: 'ای میل'
+  phone: ٹیلیفون
+  website: 'ویب سائٹ'
+
+ja:
+  name: 名前
+  individual: 個人、法人ではありません
+  legal_form: 法的形態
+  legal_identifier: 登録番号（SIRET、企業番号…）
+  vat_number: VAT番号
+  email: メール
+  phone: 電話
+  website: ウェブサイト
+
+ko:
+  name: 이름
+  individual: '개인, 기업이 아님'
+  legal_form: '법적 형태'
+  legal_identifier: '등록 번호 (SIRET, 기업 번호…)'
+  vat_number: '부가가치세 번호'
+  email: 이메일
+  phone: 전화번호
+  website: 웹사이트
+
+bn:
+  name: নাম
+  individual: 'একজন ব্যক্তি, কোম্পানি নয়'
+  legal_form: 'আইনি ফর্ম'
+  legal_identifier: 'নিবন্ধন নম্বর (SIRET, উদ্যোগ নম্বর…)'
+  vat_number: 'ভ্যাট নম্বর'
+  email: ইমেল
+  phone: ফোন
+  website: ওয়েবসাইট
+
+th:
+  name: ชื่อ
+  individual: 'บุคคล ไม่ใช่บริษัท'
+  legal_form: รูปแบบทางกฎหมาย
+  legal_identifier: 'หมายเลขทะเบียน (SIRET, หมายเลขธุรกิจ…)'
+  vat_number: 'หมายเลข VAT'
+  email: อีเมล
+  phone: โทรศัพท์
+  website: เว็บไซต์
+
+de:
+  name: Name
+  individual: 'Eine Person, kein Unternehmen'
+  legal_form: Rechtsform
+  legal_identifier: 'Registrierungsnummer (SIRET, Unternehmensnummer…)'
+  vat_number: USt-IdNr.
+  email: E-Mail
+  phone: Telefon
+  website: Webseite
+
+fi:
+  name: Nimi
+  individual: 'Henkilö, ei yritys'
+  legal_form: 'Oikeudellinen muoto'
+  legal_identifier: 'Rekisterinumero (SIRET, yritysnumero…)'
+  vat_number: Alv-numero
+  email: Sähköposti
+  phone: Puhelin
+  website: Verkkosivusto
+
+ru:
+  name: Имя
+  individual: 'Человек, а не компания'
+  legal_form: 'Юридическая форма'
+  legal_identifier: 'Регистрационный номер (SIRET, номер предприятия…)'
+  vat_number: 'Номер НДС'
+  email: 'Электронная почта'
+  phone: Телефон
+  website: Сайт
+
+pl:
+  name: Imię
+  individual: 'Osoba, nie firma'
+  legal_form: 'Forma prawna'
+  legal_identifier: 'Numer rejestracyjny (SIRET, numer przedsiębiorstwa…)'
+  vat_number: 'Numer VAT'
+  email: Email
+  phone: Telefon
+  website: 'Strona internetowa'
+
+es:
+  name: Nombre
+  individual: 'Una persona, no una empresa'
+  legal_form: 'Forma jurídica'
+  legal_identifier: 'Número de registro (SIRET, número de empresa…)'
+  vat_number: 'Número de IVA'
+  email: 'Correo electrónico'
+  phone: Teléfono
+  website: 'Sitio web'
+
+it:
+  name: Nome
+  individual: "Una persona, non un'azienda"
+  legal_form: 'Forma legale'
+  legal_identifier: "Numero di registrazione (SIRET, numero d'impresa…)"
+  vat_number: 'Numero di partita IVA'
+  email: Email
+  phone: Telefono
+  website: 'Sito web'
+
+pt_BR:
+  name: Nome
+  individual: 'Uma pessoa, não uma empresa'
+  legal_form: 'Forma jurídica'
+  legal_identifier: 'Número de registro (SIRET, número da empresa…)'
+  vat_number: 'Número do IVA'
+  email: Email
+  phone: Telefone
+  website: Site
+
+tr:
+  name: İsim
+  individual: 'Bir kişi, bir şirket değil'
+  legal_form: 'Hukuki şekil'
+  legal_identifier: 'Kayıt numarası (SIRET, işletme numarası…)'
+  vat_number: 'KDV numarası'
+  email: E-posta
+  phone: Telefon
+  website: 'Web sitesi'
+
+vi:
+  name: Tên
+  individual: 'Một người, không phải công ty'
+  legal_form: 'Hình thức pháp lý'
+  legal_identifier: 'Số đăng ký (SIRET, số doanh nghiệp…)'
+  vat_number: 'Số VAT'
+  email: Email
+  phone: 'Điện thoại'
+  website: 'Trang web'
+
+id:
+  name: Nama
+  individual: 'Sebuah orang, bukan perusahaan'
+  legal_form: 'Bentuk hukum'
+  legal_identifier: 'Nomor registrasi (SIRET, nomor perusahaan…)'
+  vat_number: 'Nomor PPN'
+  email: Email
+  phone: Telepon
+  website: 'Situs web'
+
+nl:
+  name: Naam
+  individual: 'Een persoon, geen bedrijf'
+  legal_form: 'Juridische vorm'
+  legal_identifier: 'Registratienummer (SIRET, ondernemingsnummer…)'
+  vat_number: BTW-nummer
+  email: E-mail
+  phone: Telefoon
+  website: Website
