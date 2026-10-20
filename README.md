@@ -1,6 +1,6 @@
 # symfony-organization-ds
 
-Version: 3.0.0
+Version: 3.0.1
 
 ## LegalIdentityType
 
@@ -63,7 +63,7 @@ The suite includes packages for configuration management, file handling, prompts
 - wexample/symfony-geo-ds: >=3.0.0
 - wexample/symfony-forms: >=13.0.0
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.1.0
+- wexample/symfony-loader: >=23.2.0
 - wexample/symfony-user: >=13.0.0
 - wexample/symfony-design-system: >=37.0.0
 
