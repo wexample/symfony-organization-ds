@@ -1,6 +1,6 @@
 # symfony-organization-ds
 
-Version: 3.0.17
+Version: 3.0.18
 
 Design system parts of the organization directory: forms and views of a legal identity
 
