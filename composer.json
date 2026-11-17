@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-organization-ds",
   "description": "Design system parts of the organization directory: forms and views of a legal identity",
-  "version": "3.0.19",
+  "version": "3.0.20",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -22,7 +22,7 @@
   ],
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-organization": ">=4.0.0",
+    "wexample/symfony-organization": ">=5.0.0",
     "wexample/symfony-geo": ">=9.0.0",
     "wexample/symfony-geo-ds": ">=3.0.9",
     "wexample/symfony-forms": ">=17.0.0",
